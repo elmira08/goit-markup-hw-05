@@ -469,11 +469,15 @@ footer-form-label {
     letter-spacing: 0.04em;
     
 }
-.footer-form{
+.footer-form-box{
     margin-left:80px;
-    display: flex;
-    gap:24px
 }
+.footer-form{
+    
+    gap:24px;
+    display: flex;
+}
+
 .footer-form-icon{
     fill:white;
     margin-left: 16px;
@@ -701,6 +705,7 @@ footer-form-label {
     color: #fff;
     cursor: pointer;
     display: block;
+    margin: 0 auto;
 }
 
 .form-btn-submit:hover,
